@@ -1,6 +1,6 @@
 module.exports = {
     get : (req, res) =>
     {
-        res.send("I am JP!");
+        res.send("I am !");
     }
 }
