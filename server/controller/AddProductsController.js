@@ -6,7 +6,6 @@ const addProductController = async (req,res) =>
         const {product_name, product_id, product_main_functions, product_secondary_function_1, product_secondary_function_2 }= req.query
         const result = await addProductModel(product_name, product_id, product_main_functions, product_secondary_function_1, product_secondary_function_2);
         res.status(200).json({message: 'Product Added Successfullt', data: result});
-        //res.status(200).json({product_name});
     }
     catch (err)
     {
