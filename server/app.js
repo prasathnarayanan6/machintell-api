@@ -10,4 +10,4 @@ app.listen('3001', (req, res)=>{
 })
 app.use('/api/v1/viewproducts', viewproducts);
 app.use('/api/v1/addproducts', addproducts);
-app.use('./api/v1/updateproducts/:id', updateproducts);
+app.use('/api/v1/updateproducts', updateproducts);
