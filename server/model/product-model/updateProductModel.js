@@ -1,4 +1,4 @@
- const con = require('./db');
+ const con = require('../db');
  const updateProductModel = (product_name, product_main_function, id) => {
     return new Promise((resolve, reject) => {
         con.query("UPDATE product SET product_name = ? , product_main_functions = ? WHERE product_id = ?", [product_name, product_main_function, id], 

@@ -1,4 +1,4 @@
-const con = require('./db');
+const con = require('../db');
 const viewProductsModel = () => {
     return new Promise((resolve, reject) => {
         con.query("SELECT * FROM main_assemblies", (error, result) => {

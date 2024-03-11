@@ -1,4 +1,4 @@
-const viewProductModel = require('../model/viewProductModel');
+const viewProductModel = require('../../model/product-model/viewProductModel');
 const viewproductscontroller = async (req, res) => {
     try 
     {
