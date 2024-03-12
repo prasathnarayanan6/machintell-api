@@ -14,4 +14,5 @@ app.use('/api/v1/viewproducts', viewproducts);
 app.use('/api/v1/addproducts', addproducts);
 app.use('/api/v1/updateproducts', updateproducts);
 app.use('/api/v1/deleteproducts', deleteproducts);
-app.use('/api/v1/deleteproducts', addproductspecs);
+app.use('/api/v1/addproductspecs', addproductspecs);
+// app.use('/api/v1/')
