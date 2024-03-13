@@ -1,6 +1,6 @@
-// const express = require('express');
-// const router = express.Router();
-// const deletespecscontroller = require('../../controller/product-specifications/AddProductSpecsController');
-// router.post('/', addproductspecscontroller);
+const express = require('express');
+const router = express.Router();
+const deleteproductspecscontroller = require('../../controller/product-specifications/DeleteProductSpecsController');
+router.delete('/:id', deleteproductspecscontroller);
 
-// module.exports = router;
+module.exports = router;

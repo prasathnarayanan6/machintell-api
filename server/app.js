@@ -7,6 +7,7 @@ const updateproducts = require('./routes/ProductRoutes/updateproducts');
 const deleteproducts = require('./routes/ProductRoutes/deleteproducts');
 const addproductspecs = require('./routes/productSpecsRoutes/addproductspecs');
 const updateproductspecs = require('./routes/productSpecsRoutes/updateproductspecs');
+const deleteproductspecs = require('./routes/productSpecsRoutes/deleteproductspecs');
 app.use(bodyParser.json());
 app.listen('3001', (req, res)=>{
     console.log('working');
