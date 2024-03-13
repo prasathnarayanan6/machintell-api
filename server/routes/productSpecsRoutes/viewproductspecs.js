@@ -1,6 +1,6 @@
-// const express = require('express');
-// const router = express.Router();
-// const addproductspecscontroller = require('../../controller/product-specifications/AddProductSpecsController');
-// router.post('/', addproductspecscontroller);
+const express = require('express');
+const router = express.Router();
+const viewproductspecscontroller = require('../../controller/product-specifications/');
+router.post('/', viewproductcontroller);
 
-// module.exports = router;
+module.exports = router;

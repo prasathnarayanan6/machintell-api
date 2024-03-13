@@ -18,3 +18,4 @@ app.use('/api/v1/updateproducts', updateproducts);
 app.use('/api/v1/deleteproducts', deleteproducts);
 app.use('/api/v1/addproductspecs', addproductspecs);
 app.use('/api/v1/updateproductspecs', updateproductspecs);
+app.use('/api/v1/deleteproductspecs', deleteproductspecs);

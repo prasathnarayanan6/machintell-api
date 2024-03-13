@@ -4,7 +4,7 @@ const DeleteProductSpecsController = async (req, res) => {
     {
       const {id}  = req.params;
       const result = await deleteProductSpecsModel(id);
-      res.status(200).json({message : 'Data Inserted Successfully', data: result});
+      res.status(200).json({message : 'Data Deleted Successfully', data: result});
     }
     catch (err)
     {
