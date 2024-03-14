@@ -9,7 +9,7 @@ const UpdateProductSpecsController = async (req, res) => {
     }
     catch (error)
     {
-        res.json({message: 'OOPs'});
+        res.json({message: 'OOPs', data:error});
     }
 }
 module.exports = UpdateProductSpecsController;

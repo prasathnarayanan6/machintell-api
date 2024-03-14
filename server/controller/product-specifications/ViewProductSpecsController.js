@@ -9,7 +9,7 @@ const ViewProductSpecsController = async (req, res) => {
     catch (err)
     {
         console.log(err);
-        res.status(500).json({error: 'Internal Server Error'});
+        res.status(500).json({error: 'Internal Server Error', data:err});
     }
 }
 module.exports = ViewProductSpecsController;

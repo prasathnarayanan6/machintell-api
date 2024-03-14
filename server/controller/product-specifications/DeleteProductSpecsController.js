@@ -8,7 +8,7 @@ const DeleteProductSpecsController = async (req, res) => {
     }
     catch (err)
     {
-        res.json({message: "OOPS Try again Later"});
+        res.json({message: "OOPS Try again Later", data:err});
     }
 }
 module.exports = DeleteProductSpecsController;
