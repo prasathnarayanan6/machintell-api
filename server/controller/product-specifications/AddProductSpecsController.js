@@ -1,7 +1,7 @@
 const addproductSpecsModel = require('../../model/product-specifications-model/addproductSpecsModel');
 const addProductController = async (req,res) => 
 {
-    console.log(req.body);
+    // console.log(req.body);
     try
     {
         console.log(req.body);
