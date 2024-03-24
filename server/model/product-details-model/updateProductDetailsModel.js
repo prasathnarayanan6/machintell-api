@@ -1,9 +1,9 @@
 const con = require("../db");
-const updateProductModel = (product_name, file_location, id) => {
+const updateProductDetailsModel = (product_main_functions, id) => {
     return new Promise((resolve, reject) => {
         con.query(
-            "UPDATE product SET product_name = ? , File_Location = ? WHERE product_id = ?",
-            [product_name, file_location, id],
+            "UPDATE product_details SET product_main_functions = ? WHERE product_details_id = ?",
+            [product_main_functions, id],
             (error, result) => {
                 if (error) {
                     console.error(error);
@@ -17,4 +17,4 @@ const updateProductModel = (product_name, file_location, id) => {
     });
 };
 
-module.exports = updateProductModel;
+module.exports = updateProductDetailsModel;
